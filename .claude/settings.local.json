@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__sequential-thinking__sequentialthinking",
+      "mcp__context7__resolve-library-id",
+      "mcp__duckduckgo__duckduckgo_web_search",
+      "mcp__context7__get-library-docs",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:spyne.io)",
+      "WebFetch(domain:mariomthree.medium.com)",
+      "WebFetch(domain:snyk.io)",
+      "Bash(docker-compose up:*)",
+      "Bash(pip install:*)",
+      "Bash(timeout /t 5 /nobreak)",
+      "Bash(curl:*)",
+      "Bash(powershell -Command \"Start-Sleep -Seconds 5; Invoke-WebRequest -Uri ''http://localhost:8000/?wsdl'' -UseBasicParsing | Select-Object -ExpandProperty Content | Select-Object -First 500\")",
+      "Bash(docker-compose logs:*)",
+      "Bash(python -m pytest:*)",
+      "Bash(dir:*)",
+      "mcp__memento__create_entities",
+      "mcp__memento__create_relations",
+      "Bash(claude mcp add:*)",
+      "Bash(claude mcp list:*)",
+      "Bash(claude mcp remove:*)",
+      "Bash(npx -y @quantgeekdev/docker-mcp --help)",
+      "mcp__memento__add_observations"
+    ]
+  }
+}
