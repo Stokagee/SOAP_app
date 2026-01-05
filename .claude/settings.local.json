@@ -28,7 +28,11 @@
       "Bash(claude init:*)",
       "mcp__filesystem__directory_tree",
       "mcp__filesystem__read_multiple_files",
-      "Bash(docker-compose:*)"
+      "Bash(docker-compose:*)",
+      "WebFetch(domain:groovy-lang.org)",
+      "mcp__notion__API-post-search",
+      "mcp__notion__API-retrieve-a-page",
+      "mcp__notion__API-get-block-children"
     ]
   }
 }
